@@ -21,7 +21,7 @@ public class Q6 {
     	String s = sc.nextLine();
         char ans = NonRepeating(s);
         if  (ans != '-') {
-            System.out.println("non-repeating character is : " + ans);
+            System.out.println("first non-repeating character is : " + ans);
         } 
         else {
             System.out.println("No non-repeating character found");
