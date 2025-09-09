@@ -13,7 +13,7 @@ public class Q13 {
         return a - b;
     }
 
-    // Function for Multiplication
+   
     public static double multiply(double a, double b) {
         return a * b;
     }
