@@ -1,4 +1,4 @@
-package Level1_PP;
+package JavaElements.Level1;
 
 public class Q3 {
 	public static void main(String[]args) {

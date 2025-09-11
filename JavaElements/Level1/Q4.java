@@ -1,4 +1,4 @@
-package Level1_PP;
+package JavaElements.Level1;
 public class Q4 {
     public static void main(String[] args) {
         int costPrice = 129;

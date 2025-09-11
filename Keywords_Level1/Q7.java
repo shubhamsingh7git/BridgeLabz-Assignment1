@@ -13,7 +13,6 @@ class Patient {
     private String ailment;
     private final int patientID;
 
-    // ---------- Constructor ----------
     Patient(int patientID, String name, int age, String ailment) {
         this.patientID = patientID;
         this.name = name;
@@ -22,7 +21,6 @@ class Patient {
         totalPatients++;
     }
 
-    // ---------- Method (moved outside constructor) ----------
     void displayDetails() {
         if (this instanceof Patient) {
             System.out.println("Hospital: " + hospitalName);

@@ -1,6 +1,6 @@
 package Keywords_Level1;
 class Student {
-    static String universityName = "National Institute of Technology"; 
+    static String universityName = "Indian Institute of Technology, BHU"; 
     private static int totalStudents = 0; 
 
     static void displayTotalStudents() {

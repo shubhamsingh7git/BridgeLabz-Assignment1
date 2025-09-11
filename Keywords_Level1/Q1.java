@@ -1,7 +1,7 @@
 package Keywords_Level1;
 
 class BankAccount{
-	static String bankName = "ABC Bank";
+	static String bankName = "SBI Bank";
 	private static int totalAccounts=0;
 	static void getTotalAccounts() {
 		System.out.println("Total account created: "+totalAccounts);
