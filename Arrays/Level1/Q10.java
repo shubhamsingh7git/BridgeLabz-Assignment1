@@ -1,19 +1,18 @@
+package Arrays.Level1;
 import java.util.Scanner;
 
-public class Q10 {
+public class Q10{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.print("Enter a positive number: ");
+        System.out.print("Enter a positive integer: ");
         int number = sc.nextInt();
-
         if (number <= 0) {
-            System.out.println("Please enter a positive number.");
+            System.out.println("Error: Please enter a positive integer.");
+            sc.close();
             return;
         }
-
         String[] results = new String[number + 1];
-
-        for (int i = 1; i <= number; i++) {
+        for (int i = 0; i <= number; i++) {
             if (i % 3 == 0 && i % 5 == 0) {
                 results[i] = "FizzBuzz";
             } else if (i % 3 == 0) {
@@ -24,10 +23,10 @@ public class Q10 {
                 results[i] = String.valueOf(i);
             }
         }
-
-        for (int i = 1; i <= number; i++) {
+        for (int i = 0; i <= number; i++) {
             System.out.println("Position " + i + " = " + results[i]);
         }
+
         sc.close();
     }
 }
